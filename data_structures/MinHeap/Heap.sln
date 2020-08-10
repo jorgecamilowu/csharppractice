@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "MinHeap\Heap.csproj", "{A313B496-28B1-4808-9E6F-0A8357490E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapTests", "HeapTests\HeapTests.csproj", "{503B861D-D513-4BDC-8FF2-AFA5522F301D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A313B496-28B1-4808-9E6F-0A8357490E76} = {A313B496-28B1-4808-9E6F-0A8357490E76}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A313B496-28B1-4808-9E6F-0A8357490E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A313B496-28B1-4808-9E6F-0A8357490E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A313B496-28B1-4808-9E6F-0A8357490E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A313B496-28B1-4808-9E6F-0A8357490E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503B861D-D513-4BDC-8FF2-AFA5522F301D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503B861D-D513-4BDC-8FF2-AFA5522F301D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503B861D-D513-4BDC-8FF2-AFA5522F301D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503B861D-D513-4BDC-8FF2-AFA5522F301D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1611F7-B0BD-4C6A-82F8-35B1374193FD}
+	EndGlobalSection
+EndGlobal
